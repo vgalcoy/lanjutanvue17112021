@@ -6,6 +6,7 @@ import Outstanding from './components/outstanding.vue'
 import ItRequest from './components/ItRequest.vue'
 import Qr from './components/qr.vue'
 import Code from './components/Code.vue'
+import scanner from './components/scanner.vue'
 import Input from './components/input.vue'
 import checkin from './components/checkin.vue'
 import confirmcheckin from './components/confirmcheckin.vue'
@@ -20,6 +21,10 @@ const routes =[
     {
         path: '/approval',
         component: Approval,
+    },
+    {
+        path: '/scanner',
+        component: scanner,
     },
     {
         path: '/out',
