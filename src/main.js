@@ -5,6 +5,8 @@ import Approval from './components/Approval.vue'
 import Outstanding from './components/outstanding.vue'
 import ItRequest from './components/ItRequest.vue'
 import Qr from './components/qr.vue'
+import Checkout from './components/checkout.vue'
+import confirmcheckout from './components/confirmcheckout.vue'
 import Code from './components/Code.vue'
 import scanner from './components/scanner.vue'
 import Input from './components/input.vue'
@@ -21,6 +23,14 @@ const routes =[
     {
         path: '/approval',
         component: Approval,
+    },
+    {
+        path: '/confirmcheckout',
+        component: confirmcheckout,
+    },
+    {
+        path: '/checkout',
+        component: Checkout,
     },
     {
         path: '/scanner',
